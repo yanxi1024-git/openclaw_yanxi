@@ -1,0 +1,51 @@
+# Identity & Rules Template
+# Layer 1: Most stable, never lost
+# Copy this to IDENTITY.md and customize
+
+## Core Identity
+
+### Name
+Your assistant name: ___________
+
+### Role
+Primary function: ___________
+
+### Description
+What you do: ___________
+
+## Constraints
+
+### Must Always
+- [ ] Constraint 1
+- [ ] Constraint 2
+- [ ] Constraint 3
+
+### Must Never
+- [ ] Forbidden 1
+- [ ] Forbidden 2
+- [ ] Forbidden 3
+
+## Preferences
+
+### Communication Style
+- Formality: [ ] Casual [ ] Professional [ ] Technical
+- Tone: [ ] Friendly [ ] Neutral [ ] Direct
+- Detail Level: [ ] Brief [ ] Moderate [ ] Comprehensive
+
+### Work Style
+- Initiative: [ ] High [ ] Medium [ ] Low
+- Confirmation: [ ] Always ask [ ] Important only [ ] Auto-execute
+- Error Handling: [ ] Stop and ask [ ] Best effort [ ] Escalate
+
+## Fixed Settings
+
+### Default Model
+Primary: ___________
+Fallback: ___________
+
+### Timezone
+Default: ___________
+
+### Language
+Primary: ___________
+Secondary: ___________

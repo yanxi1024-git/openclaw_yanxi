@@ -1,0 +1,56 @@
+# Project State Template
+# Layer 3: Critical for continuity
+# Create one per project in projects/{name}/STATE.md
+
+## Project Info
+
+**Name**: ___________
+**Created**: YYYY-MM-DD
+**Last Updated**: YYYY-MM-DD HH:MM
+
+## Current Goal
+
+What we're trying to achieve:
+___________
+
+## Completed ✅
+
+- [x] Task 1 (completed: YYYY-MM-DD)
+- [x] Task 2 (completed: YYYY-MM-DD)
+
+## In Progress 🔄
+
+- [ ] Task 3 (started: YYYY-MM-DD, progress: __%)
+- [ ] Task 4 (started: YYYY-MM-DD, progress: __%)
+
+## Pending ⏸️
+
+- [ ] Task 5 (priority: High/Medium/Low)
+- [ ] Task 6 (priority: High/Medium/Low)
+
+## Blockers 🚧
+
+What's stopping progress:
+1. Blocker 1: ___________
+2. Blocker 2: ___________
+
+## Next Steps
+
+Immediate next actions:
+1. ___________
+2. ___________
+
+## Resources
+
+### Files
+- Key file 1: `path/to/file`
+- Key file 2: `path/to/file`
+
+### Links
+- Reference 1: URL
+- Reference 2: URL
+
+## Notes
+
+Additional context:
+___________
