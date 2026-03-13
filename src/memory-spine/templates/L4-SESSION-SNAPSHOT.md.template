@@ -1,0 +1,139 @@
+# Session Snapshot Template
+# Layer 4: Bridge from transient to persistent
+# Auto-generated at session end
+
+## Session Metadata
+
+**Session ID**: `session_YYYYMMDD_HHMMSS`  
+**Start Time**: YYYY-MM-DD HH:MM:SS  
+**End Time**: YYYY-MM-DD HH:MM:SS  
+**Duration**: X hours Y minutes  
+**Message Count**: N
+
+## Summary
+
+**Topic**: Brief description of session focus  
+**Outcome**: What was achieved  
+**Status**: ✅ Completed / 🔄 In Progress / ⏸️ Paused
+
+## Key Decisions Made
+
+1. **Decision 1** (Time: HH:MM)
+   - **What**: Description
+   - **Why**: Rationale
+   - **Impact**: Affects...
+   - **Reversible**: Yes/No
+
+2. **Decision 2** (Time: HH:MM)
+   - **What**: Description
+   - **Why**: Rationale
+   - **Impact**: Affects...
+   - **Reversible**: Yes/No
+
+## New Facts Learned
+
+### Technical Facts
+- Fact 1: Description (source: conversation)
+- Fact 2: Description (source: document)
+
+### Domain Facts
+- Fact 3: Description (source: research)
+- Fact 4: Description (source: experiment)
+
+## Tasks Status
+
+### Completed ✅
+- [x] Task 1 (completed at HH:MM)
+- [x] Task 2 (completed at HH:MM)
+
+### In Progress 🔄
+- [ ] Task 3 (started at HH:MM, X% complete)
+  - **Blocker**: What's preventing completion
+  - **Next Step**: What to do next
+
+- [ ] Task 4 (started at HH:MM, Y% complete)
+  - **Blocker**: ...
+  - **Next Step**: ...
+
+### Pending ⏸️
+- [ ] Task 5 (not started, priority: High/Medium/Low)
+  - **Prerequisite**: What needs to happen first
+  - **Estimated Effort**: Small/Medium/Large
+
+## Blockers & Risks
+
+### Current Blockers
+1. **Blocker 1**
+   - **Description**: What's blocking
+   - **Impact**: How it affects progress
+   - **Mitigation**: How to resolve
+   - **Owner**: Who should resolve
+
+### Potential Risks
+1. **Risk 1**
+   - **Description**: What could go wrong
+   - **Probability**: High/Medium/Low
+   - **Impact**: High/Medium/Low
+   - **Mitigation**: Prevention plan
+
+## Resources Created/Modified
+
+### Files
+- `path/to/file1` - Description of changes
+- `path/to/file2` - Description of changes
+
+### Code
+- Commit: `abc1234` - Brief description
+- Commit: `def5678` - Brief description
+
+### Documentation
+- `docs/architecture.md` - Updated section X
+- `README.md` - Added feature Y
+
+## Writeback Required
+
+### To L1 (Identity/Rules)
+- [ ] Preference change: Description
+- [ ] Rule update: Description
+
+### To L2 (Long-term Facts)
+- [ ] New fact: Description
+- [ ] Updated fact: Description
+
+### To L3 (Project State)
+- [ ] Project: Name - Update description
+- [ ] Decision: Record new decision
+
+## Follow-up Actions
+
+### Immediate (Next Session)
+1. Action 1 - Priority: High
+2. Action 2 - Priority: Medium
+
+### Short-term (This Week)
+1. Action 3 - Priority: Medium
+2. Action 4 - Priority: Low
+
+### Long-term (This Month)
+1. Action 5 - Priority: Low
+
+## Notes & Observations
+
+### What Worked Well
+- Observation 1
+- Observation 2
+
+### What Could Improve
+- Issue 1
+- Issue 2
+
+### Ideas for Future
+- Idea 1
+- Idea 2
+
+---
+
+**Extracted by**: SessionSnapshotExtractor  
+**Confidence**: High/Medium/Low  
+**Review Required**: Yes/No  
+**Auto-saved**: YYYY-MM-DD HH:MM:SS

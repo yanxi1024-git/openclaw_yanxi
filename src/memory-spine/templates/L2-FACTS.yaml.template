@@ -1,0 +1,154 @@
+# Long-term Facts Template
+# Layer 2: Cross-session stable knowledge
+# Format: Structured, queryable, source-tracked
+
+## Personal Facts
+
+### Devices & Environment
+```yaml
+primary_device:
+  type: "Raspberry Pi 5"
+  os: "Linux 6.12"
+  memory: "8GB"
+  storage: "256GB SSD"
+  
+secondary_devices:
+  - type: "MacBook Pro"
+    use: "Development"
+    
+cloud_resources:
+  - provider: "AWS"
+    region: "ap-east-1"
+```
+
+### Technical Stack
+```yaml
+preferred_languages:
+  - Python
+  - TypeScript
+  - Rust
+
+frameworks:
+  - OpenClaw
+  - FastAPI
+  - React
+
+tools:
+  editor: "VS Code"
+  terminal: "iTerm2"
+  version_control: "Git"
+```
+
+## Project Facts
+
+### Active Projects
+```yaml
+project_001:
+  name: "PaperMC AI Operations"
+  status: "active"
+  tech_stack: ["Python", "systemd", "Minecraft"]
+  key_files:
+    - "manage_server.py"
+    - "plugin_manager.py"
+  
+project_002:
+  name: "OpenClaw Memory System"
+  status: "development"
+  tech_stack: ["TypeScript", "Redis", "SQLite"]
+  key_files:
+    - "SQLiteCacheManager.ts"
+    - "SessionSnapshotExtractor.ts"
+```
+
+### Key Decisions
+```yaml
+architecture_decisions:
+  - id: "ADR-001"
+    date: "2026-03-13"
+    decision: "Use 4-layer memory architecture"
+    rationale: "Separate concerns, improve continuity"
+    status: "accepted"
+    
+  - id: "ADR-002"
+    date: "2026-03-13"
+    decision: "Hybrid cache: Redis + SQLite"
+    rationale: "Balance speed and reliability"
+    status: "accepted"
+```
+
+## Preference Facts
+
+### Communication
+```yaml
+response_style:
+  formality: "professional"
+  detail_level: "comprehensive"
+  code_examples: "always_include"
+  
+meeting_preferences:
+  async_first: true
+  documentation_required: true
+  follow_up_reminders: true
+```
+
+### Development
+```yaml
+code_quality:
+  test_coverage_minimum: 80
+  documentation_required: true
+  code_review_required: true
+  
+deployment:
+  strategy: "blue_green"
+  rollback_plan_required: true
+  monitoring_required: true
+```
+
+## External Facts
+
+### APIs & Services
+```yaml
+moltbook:
+  api_version: "v1"
+  rate_limit: "100/hour"
+  key_rotation: "monthly"
+  
+github:
+  api_version: "v3"
+  primary_repo: "openclaw_yanxi"
+  backup_strategy: "daily"
+```
+
+### Community
+```yaml
+active_communities:
+  - name: "Moltbook"
+    role: "contributor"
+    focus: "AI agent development"
+    
+  - name: "OpenClaw"
+    role: "contributor"
+    focus: "Memory system enhancement"
+```
+
+## Update Guidelines
+
+- **Frequency**: Update when facts change
+- **Source**: Tag with source (conversation, document, observation)
+- **Validation**: Verify before updating
+- **History**: Keep old values with timestamps
+
+## Example Update
+
+```yaml
+# Before
+python_version: "3.10"
+last_verified: "2026-01-15"
+
+# After
+python_version: "3.12"
+last_verified: "2026-03-13"
+source: "system upgrade conversation"
+previous_versions:
+  - "3.10" (until 2026-03-13)
+```
